@@ -9,3 +9,8 @@
 ## Model 2 Accuraccy & Loss
 <img src="./image/model2_accuracy.png">
 <img src="./image/model2_loss.png">
+
+
+## Original vs Argumented Statistics
+<img src="./image/o_vs_a_statistics_1.png">
+<img src="./image/o_vs_a_statistics_2.png">
