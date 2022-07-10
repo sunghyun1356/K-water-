@@ -7,5 +7,5 @@
 <img src="./image/model1_loss.png">
 
 ## Model 2 Accuraccy & Loss
-<img src="./image/model2_accurac.png">
+<img src="./image/model2_accuracy.png">
 <img src="./image/model2_loss.png">
