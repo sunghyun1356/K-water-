@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f8085f204890403cb1b53e4282211380 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f8085f204890403cb1b53e4282211380" ></div>
+        
+</body>
+<script>    
+    
+            var map_f8085f204890403cb1b53e4282211380 = L.map(
+                "map_f8085f204890403cb1b53e4282211380",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4898a24b76d14b09859a24bafd7df783 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f8085f204890403cb1b53e4282211380);
+        
+    
+            var marker_cluster_0436cc2ff1964f4d87213e3a51b7cf98 = L.markerClusterGroup(
+                {}
+            );
+            map_f8085f204890403cb1b53e4282211380.addLayer(marker_cluster_0436cc2ff1964f4d87213e3a51b7cf98);
+        
+    
+            var marker_e9385e73f5a94c58b88b598183a66fe1 = L.marker(
+                [35.156212, 129.162576],
+                {}
+            ).addTo(map_f8085f204890403cb1b53e4282211380);
+        
+    
+            var icon_373836884e6f491594367c3e90d44b2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e9385e73f5a94c58b88b598183a66fe1.setIcon(icon_373836884e6f491594367c3e90d44b2a);
+        
+    
+        var popup_5a712aa2af5b43649163f14dda6c4d11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d274e9f8c054d439edd045565dcdfcf = $(`<div id="html_3d274e9f8c054d439edd045565dcdfcf" style="width: 100.0%; height: 100.0%;"><pre>저밀도</pre></div>`)[0];
+            popup_5a712aa2af5b43649163f14dda6c4d11.setContent(html_3d274e9f8c054d439edd045565dcdfcf);
+        
+
+        marker_e9385e73f5a94c58b88b598183a66fe1.bindPopup(popup_5a712aa2af5b43649163f14dda6c4d11)
+        ;
+
+        
+    
+    
+            marker_e9385e73f5a94c58b88b598183a66fe1.bindTooltip(
+                `<div>
+                     부산 해운대
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_289b6b08a2014b4baa629762b674eebd = L.marker(
+                [35.151, 129.1524],
+                {}
+            ).addTo(map_f8085f204890403cb1b53e4282211380);
+        
+    
+            var icon_2167f408994349e1bfd1d8ab09f37ee6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_289b6b08a2014b4baa629762b674eebd.setIcon(icon_2167f408994349e1bfd1d8ab09f37ee6);
+        
+    
+        var popup_192ed93a2f034e82898a4554e002b873 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5cd1d25556f943fc9a703bd11eae6487 = $(`<div id="html_5cd1d25556f943fc9a703bd11eae6487" style="width: 100.0%; height: 100.0%;"><pre>중밀도</pre></div>`)[0];
+            popup_192ed93a2f034e82898a4554e002b873.setContent(html_5cd1d25556f943fc9a703bd11eae6487);
+        
+
+        marker_289b6b08a2014b4baa629762b674eebd.bindPopup(popup_192ed93a2f034e82898a4554e002b873)
+        ;
+
+        
+    
+    
+            marker_289b6b08a2014b4baa629762b674eebd.bindTooltip(
+                `<div>
+                     부산 동백섬
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_52f12730911d4981a559e23c7c021155 = L.marker(
+                [35.1515, 129.1219],
+                {}
+            ).addTo(map_f8085f204890403cb1b53e4282211380);
+        
+    
+            var icon_d83ba55dc5214f36a0f6cea06e14d7c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_52f12730911d4981a559e23c7c021155.setIcon(icon_d83ba55dc5214f36a0f6cea06e14d7c2);
+        
+    
+        var popup_5caae15c04ec4735a72662beebe6266b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a57f4f1e4fa4653ad54f3f4f3b552fd = $(`<div id="html_1a57f4f1e4fa4653ad54f3f4f3b552fd" style="width: 100.0%; height: 100.0%;"><pre>저밀도</pre></div>`)[0];
+            popup_5caae15c04ec4735a72662beebe6266b.setContent(html_1a57f4f1e4fa4653ad54f3f4f3b552fd);
+        
+
+        marker_52f12730911d4981a559e23c7c021155.bindPopup(popup_5caae15c04ec4735a72662beebe6266b)
+        ;
+
+        
+    
+    
+            marker_52f12730911d4981a559e23c7c021155.bindTooltip(
+                `<div>
+                     부산 광안리
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a67643389ec7494dad77bf48eada576c = L.marker(
+                [35.1595, 129.1929],
+                {}
+            ).addTo(map_f8085f204890403cb1b53e4282211380);
+        
+    
+            var icon_0a6a2e49bc6748e8b23ae4c1ee8357a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a67643389ec7494dad77bf48eada576c.setIcon(icon_0a6a2e49bc6748e8b23ae4c1ee8357a0);
+        
+    
+        var popup_02cd641b734e421a85e873885b40e8a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_667d9a676c4648509a7ba9ddd8ed195b = $(`<div id="html_667d9a676c4648509a7ba9ddd8ed195b" style="width: 100.0%; height: 100.0%;"><pre>고밀도</pre></div>`)[0];
+            popup_02cd641b734e421a85e873885b40e8a5.setContent(html_667d9a676c4648509a7ba9ddd8ed195b);
+        
+
+        marker_a67643389ec7494dad77bf48eada576c.bindPopup(popup_02cd641b734e421a85e873885b40e8a5)
+        ;
+
+        
+    
+    
+            marker_a67643389ec7494dad77bf48eada576c.bindTooltip(
+                `<div>
+                     부산 청사포
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5e0e5303864c48c9a196e6753ee44f28 = L.marker(
+                [35.0951, 129.1275],
+                {}
+            ).addTo(map_f8085f204890403cb1b53e4282211380);
+        
+    
+            var icon_3c1deba5ea15405ca93c5c3a03855d3f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5e0e5303864c48c9a196e6753ee44f28.setIcon(icon_3c1deba5ea15405ca93c5c3a03855d3f);
+        
+    
+        var popup_26705284a55d44bb802b61dbe45bfe2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d59ad36cd56498380ed111c0b25e27b = $(`<div id="html_1d59ad36cd56498380ed111c0b25e27b" style="width: 100.0%; height: 100.0%;"><pre>저밀도</pre></div>`)[0];
+            popup_26705284a55d44bb802b61dbe45bfe2f.setContent(html_1d59ad36cd56498380ed111c0b25e27b);
+        
+
+        marker_5e0e5303864c48c9a196e6753ee44f28.bindPopup(popup_26705284a55d44bb802b61dbe45bfe2f)
+        ;
+
+        
+    
+    
+            marker_5e0e5303864c48c9a196e6753ee44f28.bindTooltip(
+                `<div>
+                     부산 오륙도
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4dc312c1f98f43bf9ab1e5f2345a9e3b = L.marker(
+                [35.1558, 129.1378],
+                {}
+            ).addTo(map_f8085f204890403cb1b53e4282211380);
+        
+    
+            var icon_9811d0afeb7d4f898784dc48152224cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4dc312c1f98f43bf9ab1e5f2345a9e3b.setIcon(icon_9811d0afeb7d4f898784dc48152224cf);
+        
+    
+        var popup_d576663adfc9497b9b14e4d396ce6e20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_387325d8c8654bd8bcbb77da9aff7955 = $(`<div id="html_387325d8c8654bd8bcbb77da9aff7955" style="width: 100.0%; height: 100.0%;"><pre>저밀도</pre></div>`)[0];
+            popup_d576663adfc9497b9b14e4d396ce6e20.setContent(html_387325d8c8654bd8bcbb77da9aff7955);
+        
+
+        marker_4dc312c1f98f43bf9ab1e5f2345a9e3b.bindPopup(popup_d576663adfc9497b9b14e4d396ce6e20)
+        ;
+
+        
+    
+    
+            marker_4dc312c1f98f43bf9ab1e5f2345a9e3b.bindTooltip(
+                `<div>
+                     부산 수영만
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7fa41c0c61a14056922513aecf73935d = L.marker(
+                [35.1418, 129.1212],
+                {}
+            ).addTo(map_f8085f204890403cb1b53e4282211380);
+        
+    
+            var icon_37b7e813751c4d3ca40fd7a3532c9618 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7fa41c0c61a14056922513aecf73935d.setIcon(icon_37b7e813751c4d3ca40fd7a3532c9618);
+        
+    
+        var popup_9ba70e018b7f423cbc355bdd834a2eb4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_773029d96bcb40c4a26651b3376ecfec = $(`<div id="html_773029d96bcb40c4a26651b3376ecfec" style="width: 100.0%; height: 100.0%;"><pre>저밀도</pre></div>`)[0];
+            popup_9ba70e018b7f423cbc355bdd834a2eb4.setContent(html_773029d96bcb40c4a26651b3376ecfec);
+        
+
+        marker_7fa41c0c61a14056922513aecf73935d.bindPopup(popup_9ba70e018b7f423cbc355bdd834a2eb4)
+        ;
+
+        
+    
+    
+            marker_7fa41c0c61a14056922513aecf73935d.bindTooltip(
+                `<div>
+                     부산 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
