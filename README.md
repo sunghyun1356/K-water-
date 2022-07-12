@@ -13,7 +13,7 @@
 <img src="./image/model2_loss.png">
 
 
-## Original vs Argumented Statistics
+## Original vs Augmented Statistics
 <!-- img src="./image/o_vs_a_statistics_1.png" -->
 <!-- img src="./image/o_vs_a_statistics_2.png" -->
 <img src="./image/original_vs_augmented_statistics.png">
