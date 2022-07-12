@@ -16,4 +16,4 @@
 ## Original vs Augmented Statistics
 <!-- img src="./image/o_vs_a_statistics_1.png" -->
 <!-- img src="./image/o_vs_a_statistics_2.png" -->
-<img src="./image/original_vs_augmented_statistics.png">
+<img src="./image/original_vs_augmented_statistics2.png">
